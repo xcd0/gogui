@@ -1,5 +1,6 @@
-# gogui golagnでのGUIアプリケーション作成テスト
+# gogui golangでのGUIアプリケーション作成テスト
 
+## intro
 node.js https://nodejs.org/ja/
 12.13.0 LTSを使用
 
@@ -11,5 +12,11 @@ node.jsをインストールしてパスを通した状態で、
 `go build`すると、諸々DLしたのちに起動した。
 
 [gotron](https://github.com/Equanox/gotron) に
-> Prerequisites
-> go1.11 with modules enabled, nodejs and npm must be available on your system.
+
+> Prerequisites  
+> go1.11 with modules enabled, nodejs and npm must be available on your system.  
+
+とあるので注意。
+
+## edit
+
