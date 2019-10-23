@@ -1,0 +1,7 @@
+dist
+gogui.exe
+.gotron-builder
+.gotron
+gotron-builder/gotron-builder*
+.*.swp
+
