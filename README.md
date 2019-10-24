@@ -24,7 +24,9 @@ Golangのパッケージがいくつかあるのでとりあえず試す。
 * [go-astilectron](https://github.com/asticode/go-astilectron)
 	* 名前が読みずらい、長い。その弊害がやたら多い気がする...
 
-## cGo
+## CGo 使っててクロスコンパイルしずらいやつ
+
+見た目、機能はよい。だが...\_(┐「ε:)\_
 
 * [fyne](https://github.com/fyne-io/fyne)
 	* 公式ビルドのGolang(gc)だとビルドできない（windows版）
@@ -35,9 +37,6 @@ Golangのパッケージがいくつかあるのでとりあえず試す。
 	* 見た目はよい。使い勝手も悪くなさそう。
 	* OpenGL使えそう。
 
-
-
-## OpenGLベース？
 * [g3n](https://github.com/g3n/engine)
 	* 公式ビルドのGolang(gc)だとビルドできない（windows版）
 	* gccgoでビルドしないといけない。ひどい\_(:3 」∠ )\_。
