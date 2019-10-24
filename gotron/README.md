@@ -1,7 +1,7 @@
 # gotron
 
 ## intro
-node.js https://nodejs.org/ja/
+[node.js](https://nodejs.org/ja/)
 12.13.0 LTSを使用
 
 MSYS2では

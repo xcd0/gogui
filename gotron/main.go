@@ -6,7 +6,7 @@ import (
 
 func main() {
 	// browser window instanceを生成する
-	window, err := gotron.New()
+	window, err := gotron.New("app")
 	if err != nil {
 		panic(err)
 	}
