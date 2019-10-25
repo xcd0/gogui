@@ -16,6 +16,7 @@ if [ ! -e $script_dir/gotron-builder-* ]; then
 	fi
 	wget -q ${url}${os}
 	ln -sf $script_dir/gotron-builder-amd64-${os} $script_dir/gotron-builder
+	echo "export PATH=\$PATH:$script_dir" > ~/.bashrc
 fi
 
 echo "export PATH=\$PATH:$script_dir"

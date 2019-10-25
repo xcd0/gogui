@@ -1,6 +1,9 @@
 # gotron
 
 ## intro
+
+go get -u -v github.com/Equanox/gotron
+
 [node.js](https://nodejs.org/ja/)
 12.13.0 LTSを使用
 

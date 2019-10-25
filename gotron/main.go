@@ -1,6 +1,8 @@
 package main
 
 import (
+	"bytes"
+	"fmt"
 	"github.com/Equanox/gotron"
 )
 
@@ -25,7 +27,15 @@ func main() {
 	}
 
 	// dev toolsを使う場合は下記をコメントアウトする(せっかくなのでdevtools使ってみる)
-	window.OpenDevTools()
+	//window.OpenDevTools()
+
+	window.On(
+		&gotron.Event{Event: "event-name"},
+		func(bin []byte) {
+			b := []byte(bin)
+			buf := bytes.NewBuffer(b)
+			fmt.Println(buf)
+		})
 
 	// アプリケーションがcloseするのを待つ
 	<-done

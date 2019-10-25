@@ -14,10 +14,14 @@ bin=./dist/$(dirname)/$(binname)
 
 build:
 	go build
-	$(addpath)
-	gotron-builder
 
 run:
+	go run main.go
+
+package:
+	gotron-builder
+
+run-package:
 ifeq ($(shell uname -o),Msys)
 	make run-win
 else ifeq ($(shell uname),Darwin)
@@ -32,4 +36,8 @@ run-mac:
 	open $(bin)
 run-linux:
 	$(bin)
+
+all:
+	make build
+	make package
 
