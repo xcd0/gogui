@@ -1,16 +1,16 @@
 
+BIN=gmail
+
 all: build
 
 build:
-	rsrc -ico gmail.ico -o gmail.syso
+	rsrc -ico $(BIN).ico -o $(BIN).syso
 ifeq ($(shell uname -o),Msys)
-	go build -o gmail.exe -ldflags="-H windowsgui"
+	go build -o $(BIN).exe -ldflags="-H windowsgui"
 else
-	go build -o gmail
+	go build -o $(BIN)
 endif
 
 run:
-	./gmail
+	./$(BIN)
 
-clean:
-	rm -rf gmail.exe gmail.syso
