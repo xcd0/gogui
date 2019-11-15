@@ -1,5 +1,6 @@
 # go-wab-app
 
+# したこと
 
 * tinygo を使う。
 * dockerが推奨されていたが動かない。
@@ -16,4 +17,12 @@
 	* `gwa dev --port 8080`してブラウザでlocalhost:8080する。
 	* 見えた。
 	* これを参考にした。 https://dev.to/talentlessguy/create-frontend-go-apps-using-go-web-app-56cb
+
+# 感想
+
+* small is beautiful.
+* よいと思う
+* まだ44コミットしかない出来立てに近いが、将来性が大きいと判断した。
+* ドキュメントもないがまだソースコードが把握できる範囲だと考えよう。
+
 
